@@ -12,9 +12,10 @@ Language: JavaScript <br>
 ---
 
 ## Setup
-1. *Fork* this repo and clone it into your `sei/deliverables` directory. (While you're doing that, ask yourself: Why are we forking and cloning and not just cloning)?  
 
-2. Inside the directory created by the clone, build our file structure (index.html and js file). Put your answers in `app.js`.
+1. Fork this repo and clone it into your `sei/homework` directory. (While you're doing that, ask yourself: Why are we forking and cloning and not just cloning)?  
+
+2. (Did you see this coming?) Inside the directory created by the clone, build our file structure (index.html and js file). Put your answers in `app.js`.
 
 3. Keep your answers organized! Included a commented header for each section in your answers file.
 
@@ -22,7 +23,7 @@ Language: JavaScript <br>
 
 5. After each section (even if you're not fully done with it), *add* and *commit* your work. Use the commit messages that you see at the end of each section. If you go back and fix a section, commit again with an updated message.
 
-6. When you are done with your homework, push up to your forked repo. (git push origin master). Create a pull request from your fork to `r-sei-12/HW-Loops-Conditionals`.
+6. When you are done with your homework, push to your fork and then and make a pull request.
 
 * Remember: the "Bonus" questions and the "Hungry for More" questions don't count against you, they're just extra questions if you wanna push beyond the baseline.
 
@@ -83,7 +84,7 @@ const reuben = ["Reuben", 22, "Durham"];
 const jimClark = ["Jim C", 186, "LA"];
 const ryan = ["Ryan", 65, "Denver"];
 ```
-1. Jim Clark decides that Kenny can't be named "Kenny" anymore. Remove "Kenny" from the `kenny` array and replace it with "Gameboy".
+1. Jim Clark decides that Kenny can't be named "Kenny" anymore. Replace the string "Kenny" in the `kenny` array with "Gameboy".
 
 2. Jim Clark just had his birthday; change jimClark's array to reflect him being a year older.  Don't just hard code `187`--pretend that you didn't already know that his age is 186, and write your code to just make him a year older than whatever age he was.
 
@@ -151,10 +152,10 @@ const thomsCloset = [
 ```
 
 ### Alien Attire
-1. Kristyn's left shoe has traveled through time and space and turned up in Thom's accessories drawer! Remove Kristyn's shoe from the array and save it to the variable `kristynsShoe`. Use that variable to add Kristyn's lost shoe to Thom's accessories array.
+1. Remove Kristyn's shoe from the array and save it to the variable `kristynsShoe`. Use that variable to add Kristyn's lost shoe to Thom's accessories array.
 
 ### Dress 'em Up
-1. Modify your code to put together **3 separate outfits** for Kristyn and Thom. Put the output in a sentence to tell us what we'll be wearing. Mix and match!
+1. Let's create some outfits for both Kristyn and Thom. Select 3 elements from `kristynsCloset` and inject them into a sentence that reads, for example, "Kristyn is wearing green pants, a right sock, and marshmallow peeps" so that "green pants", "right sock", and "marshmallow peeps" are dynamically injected into the string. Do the same thing for Thom using `thomsCloset`. (Here's a suggestion that's not required: If you really want to challenge yourself, see if you can make the selections randomly from each of their arrays.)
 
 <hr>
 &#x1F534; The commit message should read: <br>
